@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "Cormorant Infant Light Italic";
+  src: url("../fonts/CormorantInfant-LightItalic.eot");
+  src: url("../fonts/CormorantInfant-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CormorantInfant-LightItalic.woff") format("woff"),
+    url("../fonts/CormorantInfant-LightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant Infant Semibold Italic";
+  src: url("../fonts/CormorantInfant-SemiBoldItalic.eot");
+  src: url("../fonts/CormorantInfant-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CormorantInfant-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/CormorantInfant-SemiBoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Cormorant Infant Bold";
+  src: url("../fonts/CormorantInfant-Bold.eot");
+  src: url("../fonts/CormorantInfant-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CormorantInfant-Bold.woff") format("woff"),
+    url("../fonts/CormorantInfant-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff"),
+    url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans Regular";
+  src: url("../fonts/PTSans-Regular.eot");
+  src: url("../fonts/PTSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PTSans-Regular.woff") format("woff"),
+    url("../fonts/PTSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans Bold";
+  src: url("../fonts/PTSans-Bold.eot");
+  src: url("../fonts/PTSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PTSans-Bold.woff") format("woff"),
+    url("../fonts/PTSans-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
