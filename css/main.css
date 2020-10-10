@@ -1,3 +1,55 @@
+@font-face {
+  font-family: "Cormorant Infant Light Italic";
+  src: url("../fonts/CormorantInfant-LightItalic.eot");
+  src: url("../fonts/CormorantInfant-LightItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CormorantInfant-LightItalic.woff") format("woff"),
+    url("../fonts/CormorantInfant-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant Infant Semibold Italic";
+  src: url("../fonts/CormorantInfant-SemiBoldItalic.eot");
+  src: url("../fonts/CormorantInfant-SemiBoldItalic.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CormorantInfant-SemiBoldItalic.woff") format("woff"),
+    url("../fonts/CormorantInfant-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cormorant Infant Bold";
+  src: url("../fonts/CormorantInfant-Bold.eot");
+  src: url("../fonts/CormorantInfant-Bold.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/CormorantInfant-Bold.woff") format("woff"),
+    url("../fonts/CormorantInfant-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Proxima Nova Regular";
+  src: url("../fonts/ProximaNova-Regular.eot");
+  src: url("../fonts/ProximaNova-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/ProximaNova-Regular.woff") format("woff"),
+    url("../fonts/ProximaNova-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Sans Regular";
+  src: url("../fonts/PTSans-Regular.eot");
+  src: url("../fonts/PTSans-Regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PTSans-Regular.woff") format("woff"),
+    url("../fonts/PTSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PT Sans Bold";
+  src: url("../fonts/PTSans-Bold.eot");
+  src: url("../fonts/PTSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PTSans-Bold.woff") format("woff"),
+    url("../fonts/PTSans-Bold.ttf") format("truetype");
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,4 +57,68 @@
 body {
   padding: 0;
   margin: 0;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 37px;
+  padding-bottom: 23px;
+}
+.header__content {
+  padding-bottom: 68px;
+  text-align: center;
+}
+.header__title {
+  font-family: "Cormorant Infant Bold", sans-serif;
+  font-size: 36px;
+  line-height: 38px;
+  font-weight: 700;
+  letter-spacing: 0.005em;
+  color: #262626;
+  margin: 0 0 11px 0;
+}
+.header__text {
+  font-family: "Cormorant Infant Light Italic", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: 0.005em;
+  color: #595959;
+  margin: 0;
+}
+
+.menu {
+  padding: 0 19px;
+}
+
+.menu__desktop {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  align-items: center;
+}
+.menu__item a {
+  font-family: "PT Sans Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.005em;
+  color: #262626;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.active a {
+  color: #48974c;
+}
+
+.menu__item a:hover {
+  color: #48974c;
 }
