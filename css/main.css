@@ -62,16 +62,21 @@ body {
 .container {
   width: 1170px;
   margin: 0 auto;
+  padding: 0 19px;
 }
+
+/* header */
 
 .header {
   padding-top: 37px;
   padding-bottom: 23px;
 }
+
 .header__content {
   padding-bottom: 68px;
   text-align: center;
 }
+
 .header__title {
   font-family: "Cormorant Infant Bold", sans-serif;
   font-size: 36px;
@@ -81,6 +86,7 @@ body {
   color: #262626;
   margin: 0 0 11px 0;
 }
+
 .header__text {
   font-family: "Cormorant Infant Light Italic", sans-serif;
   font-size: 16px;
@@ -89,10 +95,6 @@ body {
   letter-spacing: 0.005em;
   color: #595959;
   margin: 0;
-}
-
-.menu {
-  padding: 0 19px;
 }
 
 .menu__desktop {
@@ -104,6 +106,7 @@ body {
   margin: 0 auto;
   align-items: center;
 }
+
 .menu__item a {
   font-family: "PT Sans Regular", sans-serif;
   font-size: 16px;
@@ -121,4 +124,55 @@ body {
 
 .menu__item a:hover {
   color: #48974c;
+}
+
+/* appeal */
+.appeal {
+  background: url("../img/shape.png") no-repeat;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.appeal__block {
+  width: 552px;
+}
+.appeal__message {
+  background-color: #fff;
+  opacity: 0.94;
+}
+.appeal__title {
+  font-family: "Cormorant Infant Bold", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.005em;
+  color: #404040;
+  padding: 40px 100px 20px 39px;
+  margin: 0;
+}
+.appeal__text {
+  margin: 0;
+  font-family: "PT Sans Regular", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.005em;
+  color: #404040;
+  padding: 0 0 50px 38px;
+}
+.appeal__slide {
+  padding-top: 30px;
+  display: flex;
+}
+
+.appeal__slider {
+  opacity: 0.6;
+}
+
+.appeal__slider:not(:last-child) {
+  margin-right: 9px;
+}
+
+.active__slider {
+  opacity: 1;
 }
