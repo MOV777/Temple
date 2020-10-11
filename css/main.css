@@ -859,6 +859,13 @@ body {
     grid-template-columns: 100%;
   }
 
+  .auxiliary__content:first-child,
+  .auxiliary__content:nth-child(3),
+  .auxiliary__content:nth-child(5),
+  .auxiliary__content:nth-child(7) {
+    border-right: none;
+  }
+
   .pages .btn__pages {
     display: none;
   }
