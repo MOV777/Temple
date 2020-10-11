@@ -245,6 +245,7 @@ body {
 /* news */
 .news {
   background-color: #f8f8f8;
+  background: url("../img/shape_114.png");
   padding-top: 30px;
   padding-bottom: 70px;
   background-size: cover;
@@ -592,6 +593,7 @@ body {
 
 .announcement {
   background-color: #f8f8f8;
+  background: url("../img/shape_114.png");
   padding: 70px 0;
 }
 .announcement__content {
