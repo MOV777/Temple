@@ -438,14 +438,13 @@ body {
 }
 .auxiliary__arrow {
   display: block;
-  font-weight: bold;
+  font-weight: bolder;
   background-color: #48974c;
   color: #fff;
   border-radius: 50%;
   text-align: center;
-  width: 15px;
-  padding-left: 2px;
-  margin-right: 9px;
+  width: 18px;
+  margin-right: 7px;
 }
 .auxiliary__link {
   text-decoration: none;
