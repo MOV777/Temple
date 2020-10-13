@@ -445,7 +445,16 @@ body {
   text-align: center;
   width: 18px;
   margin-right: 7px;
+  text-decoration: none;
+  padding: 4px 0;
 }
+
+.auxiliary__arrow img {
+  display: block;
+  margin: 0 auto;
+  width: 6px;
+}
+
 .auxiliary__link {
   text-decoration: none;
   font-family: "PT Sans Bold", sans-serif;
